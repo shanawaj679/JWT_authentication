@@ -17,16 +17,18 @@
                 Name : <input required placeholder="John Doe" id="name" type="text">
                 Email : <input required placeholder="John@gmail.com" type="email" id="email">
                 Password : <input required placeholder="password" type="password" id="password">
-                <button type="submit" onclick="postdata()">Register</button>
+                <button type="button" onclick="adduser()">Register</button>
                 <div id="alreadyregistered"> </div>
-            <a href="/JWT_authentication/login.html">if already registered then click me (login)</a>
-            <a href="/JWT_authentication/changepassword.html"> change password</a>
-            <a href="/JWT_authentication/delete.html">delete user</a>
-            <a href="/JWT_authentication/activesers.html">no.of active users</a>
+            <a href="/JWT_authentication/frontendhtml/login.html">if already registered then click me (login)</a>
+            <a href="/JWT_authentication/frontendhtml/activesers.html">no.of active users</a>
             </div>
     </main>
    <footer>
     <p>&copy; 2026 shanawaj nadaf. All rights reserved.</p>
 </footer>
 </body>
+<script src="/JWT_authentication/apicalls/delete.js"></script>
+<script src="/JWT_authentication/apicalls/get.js"></script>
+<script src="/JWT_authentication/apicalls/post.js"></script>
+<script src="/JWT_authentication/apicalls/put.js"></script>
 </html>

@@ -11,9 +11,11 @@
          <div>
                 Email : <input required placeholder="John@gmail.com" type="email" id="delete_email">
                 Password : <input required placeholder="password" type="password" id="delete_password">
-                <button style="width:30%; margin-top:1em;" type="submit">Delete user</button>
-                <div id="alreadyregistered"> </div>
+                <button style="width:30%; margin-top:1em;" type="submit" onclick="deleteuser()">Delete user</button>
+                <div id="deleteuser"> </div>
             </div>
     </main>
 </body>
+<script src="/JWT_authentication/apicalls/delete.js"></script>
+
 </html>

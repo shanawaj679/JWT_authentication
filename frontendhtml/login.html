@@ -9,12 +9,14 @@
 <body>
     <main>
         <div>
-             Name : <input required placeholder="John Doe" id="login_name" type="text">
                 Email : <input required placeholder="John@gmail.com" type="email" id="login_email">
                 Password : <input required placeholder="password" type="password" id="login_password">
-                <button type="submit">Login</button>
+                <button style="width: 30%;margin-top: 1em;" type="submit" onclick="login()">Login</button>
+                <p id="loginuser"></p>
+            
         </div>
         
     </main>
 </body>
+<script src="/JWT_authentication/apicalls/post.js"></script>
 </html>
